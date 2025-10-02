@@ -11,7 +11,7 @@ export default function Home() {
           Welcome to My Next.js + Tailwind Page!
         </span>
       </h1>
-      <p className="mt-6 text-lg text-gray-200">hi, i'm jake</p>
+      <p className="mt-6 text-lg text-gray-200">{`hi, i'm jake`}</p>
       <div className="mt-6 flex items-center justify-center gap-6">
         <img src="/vercel.svg" alt="Vercel Logo" className="h-8 rotate-90" />
         <a
